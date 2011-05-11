@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* ArcGISTest1AppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1244, 719}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 503}";
+		};
+	};
+	1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1244, 742}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 638}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* ArcGISTest1 */ = {
+		activeExec = 0;
+		executables = (
+			431010E11371EDD4008F3D95 /* ArcGISTest1 */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* ArcGISTest1ViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1244, 754}}";
+			sepNavSelRange = "{576, 0}";
+			sepNavVisRange = "{0, 1296}";
+			sepNavWindowFrame = "{{19, 10}, {1857, 1163}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* ArcGISTest1ViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1265, 3705}}";
+			sepNavSelRange = "{2776, 0}";
+			sepNavVisRange = "{1236, 1725}";
+			sepNavWindowFrame = "{{19, 10}, {1857, 1163}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 431010E11371EDD4008F3D95 /* ArcGISTest1 */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* ArcGISTest1 */;
+		breakpoints = (
+			4353188B1379C22300832F28 /* ArcGISTest1ViewController.m:205 */,
+		);
+		codeSenseManager = 431010FB1371EDEB008F3D95 /* Code sense */;
+		executables = (
+			431010E11371EDD4008F3D95 /* ArcGISTest1 */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1066,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					1042,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 326827739;
+			PBXWorkspaceStateSaveDate = 326827739;
+		};
+		perUserProjectItems = {
+			43505674137AFEEC004C7CB6 /* PBXTextBookmark */ = 43505674137AFEEC004C7CB6 /* PBXTextBookmark */;
+			435316EC137866E800832F28 = 435316EC137866E800832F28 /* PlistBookmark */;
+			435316EE137866E800832F28 = 435316EE137866E800832F28 /* PBXTextBookmark */;
+			435317561378897C00832F28 = 435317561378897C00832F28 /* PBXTextBookmark */;
+			435317581378897C00832F28 = 435317581378897C00832F28 /* PBXTextBookmark */;
+			4353176B13788B1200832F28 = 4353176B13788B1200832F28 /* PBXTextBookmark */;
+			435318231378AB6000832F28 = 435318231378AB6000832F28 /* PBXTextBookmark */;
+			435318251378AB6000832F28 = 435318251378AB6000832F28 /* PBXTextBookmark */;
+			4353184D1379B6AF00832F28 = 4353184D1379B6AF00832F28 /* PBXTextBookmark */;
+			4353184E1379B6AF00832F28 = 4353184E1379B6AF00832F28 /* PBXTextBookmark */;
+			435318BF1379C95800832F28 = 435318BF1379C95800832F28 /* PBXTextBookmark */;
+			435318CE137AFA4100832F28 = 435318CE137AFA4100832F28 /* PBXTextBookmark */;
+			435318CF137AFA4100832F28 = 435318CF137AFA4100832F28 /* PBXTextBookmark */;
+			435318D0137AFA4100832F28 = 435318D0137AFA4100832F28 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 431010FA1371EDEB008F3D95 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	431010E11371EDD4008F3D95 /* ArcGISTest1 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ArcGISTest1;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eax = 1;
+			$ebp = 1;
+			$ebx = 1;
+			$ecx = 1;
+			$edi = 1;
+			$edx = 1;
+			$eflags = 1;
+			$eip = 1;
+			$es = 1;
+			$esi = 1;
+			$esp = 1;
+			$fs = 1;
+			$gs = 1;
+			$mxcsr = 1;
+			$ss = 1;
+		};
+	};
+	431010FA1371EDEB008F3D95 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	431010FB1371EDEB008F3D95 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	43505674137AFEEC004C7CB6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ArcGISTest1ViewController.m */;
+		name = "ArcGISTest1ViewController.m: 91";
+		rLen = 0;
+		rLoc = 2776;
+		rType = 0;
+		vrLen = 1725;
+		vrLoc = 1236;
+	};
+	435316EC137866E800832F28 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* ArcGISTest1-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			NSMainNibFile,
+		);
+		name = "/Users/chrisburns/Development/ArcGISTest1/ArcGISTest1-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	435316EE137866E800832F28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */;
+		name = "ArcGISTest1AppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 638;
+		vrLoc = 0;
+	};
+	435317561378897C00832F28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 435317571378897C00832F28 /* AGSCallout.h */;
+		name = "AGSCallout.h: 93";
+		rLen = 62;
+		rLoc = 2302;
+		rType = 0;
+		vrLen = 1673;
+		vrLoc = 1574;
+	};
+	435317571378897C00832F28 /* AGSCallout.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AGSCallout.h;
+		path = /Users/chrisburns/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSCallout.h;
+		sourceTree = "<absolute>";
+	};
+	435317581378897C00832F28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ArcGISTest1AppDelegate.h */;
+		name = "ArcGISTest1AppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 503;
+		vrLoc = 0;
+	};
+	4353175A1378897C00832F28 /* AGSMapView.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AGSMapView.h;
+		path = /Users/chrisburns/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSMapView.h;
+		sourceTree = "<absolute>";
+	};
+	4353176B13788B1200832F28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4353176C13788B1200832F28 /* AGSDynamicLayer.h */;
+		name = "AGSDynamicLayer.h: 67";
+		rLen = 0;
+		rLoc = 2260;
+		rType = 0;
+		vrLen = 1851;
+		vrLoc = 5761;
+	};
+	4353176C13788B1200832F28 /* AGSDynamicLayer.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AGSDynamicLayer.h;
+		path = /Users/chrisburns/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSDynamicLayer.h;
+		sourceTree = "<absolute>";
+	};
+	435317F01378A49700832F28 /* AGSDynamicMapServiceLayer.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AGSDynamicMapServiceLayer.h;
+		path = /Users/chrisburns/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSDynamicMapServiceLayer.h;
+		sourceTree = "<absolute>";
+	};
+	435318081378A9BE00832F28 /* AGSMapServiceInfo.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AGSMapServiceInfo.h;
+		path = /Users/chrisburns/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSMapServiceInfo.h;
+		sourceTree = "<absolute>";
+	};
+	4353180C1378A9BE00832F28 /* AGSMapServiceLayerInfo.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AGSMapServiceLayerInfo.h;
+		path = /Users/chrisburns/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSMapServiceLayerInfo.h;
+		sourceTree = "<absolute>";
+	};
+	435318231378AB6000832F28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 435317F01378A49700832F28 /* AGSDynamicMapServiceLayer.h */;
+		name = "AGSDynamicMapServiceLayer.h: 71";
+		rLen = 90;
+		rLoc = 2078;
+		rType = 0;
+		vrLen = 2007;
+		vrLoc = 1062;
+	};
+	435318251378AB6000832F28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4353175A1378897C00832F28 /* AGSMapView.h */;
+		name = "AGSMapView.h: 338";
+		rLen = 0;
+		rLoc = 11150;
+		rType = 0;
+		vrLen = 2416;
+		vrLoc = 10094;
+	};
+	4353184D1379B6AF00832F28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 435318081378A9BE00832F28 /* AGSMapServiceInfo.h */;
+		name = "AGSMapServiceInfo.h: 103";
+		rLen = 22;
+		rLoc = 2545;
+		rType = 0;
+		vrLen = 1577;
+		vrLoc = 1655;
+	};
+	4353184E1379B6AF00832F28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4353180C1378A9BE00832F28 /* AGSMapServiceLayerInfo.h */;
+		name = "AGSMapServiceLayerInfo.h: 35";
+		rLen = 22;
+		rLoc = 877;
+		rType = 0;
+		vrLen = 1615;
+		vrLoc = 398;
+	};
+	4353188B1379C22300832F28 /* ArcGISTest1ViewController.m:205 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* ArcGISTest1ViewController.m */;
+		functionName = "-loadDepthControl";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 205;
+		location = ArcGISTest1;
+		modificationTime = 326748781.460944;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	435318BF1379C95800832F28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ArcGISTest1ViewController.h */;
+		name = "ArcGISTest1ViewController.h: 26";
+		rLen = 0;
+		rLoc = 576;
+		rType = 0;
+		vrLen = 1296;
+		vrLoc = 0;
+	};
+	435318CA137AF2CC00832F28 /* setup git PATH for non-terminal programs.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = "setup git PATH for non-terminal programs.sh";
+		path = "/Volumes/Git 1.7.5 x86_64 Leopard/setup git PATH for non-terminal programs.sh";
+		sourceTree = "<absolute>";
+	};
+	435318CE137AFA4100832F28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 435318CA137AF2CC00832F28 /* setup git PATH for non-terminal programs.sh */;
+		name = "setup git PATH for non-terminal programs.sh: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 953;
+		vrLoc = 0;
+	};
+	435318CF137AFA4100832F28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ArcGISTest1ViewController.m */;
+		name = "ArcGISTest1ViewController.m: 95";
+		rLen = 0;
+		rLoc = 2776;
+		rType = 0;
+		vrLen = 1274;
+		vrLoc = 1884;
+	};
+	435318D0137AFA4100832F28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ArcGISTest1ViewController.m */;
+		name = "ArcGISTest1ViewController.m: 91";
+		rLen = 0;
+		rLoc = 2776;
+		rType = 0;
+		vrLen = 1683;
+		vrLoc = 0;
+	};
+}
