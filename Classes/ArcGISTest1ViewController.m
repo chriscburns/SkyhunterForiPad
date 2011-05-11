@@ -47,9 +47,13 @@
 	NSError *error = nil; 
 
 	
-	//Depth (Map) Layers (! Not Shown By Default, ergo it's not loaded or put into the map view) 
+	//Depth (Map) Layers (! Not Shown By Default, ergo it's loaded but not put into the view)
 	NSURL *depthsUrl = [NSURL URLWithString:@"http://asebeast.cpsc.ucalgary.ca:1892/ArcGIS/rest/services/cpzdepths/MapServer"];
 	self.depthsInfo = [AGSMapServiceInfo mapServiceInfoWithURL:depthsUrl error:&error]; 
+	
+	self.depthsLayer = [AGSDynamicMapServiceLayer dynamicMapServiceLayerWithMapServiceInfo:depthsInfo]; 
+	self.depthsLayer.visibleLayers = [NSArray arrayWithObjects:[NSNumber numberWithInt:0], nil];
+	
 	
 
 	//Contours (Lines) Layers 
@@ -141,10 +145,22 @@
 	
 	if (self.dcoControl.selectedSegmentIndex == 0) { //Depth
 		
-
-		self.contoursLayer.visibleLayers = [NSArray arrayWithObjects:[NSNumber numberWithInt:currentIndex], nil]; 
+		//Find the currently visible layers in the map 
+		NSArray *activeLayers = self.mapView.mapLayers; 
 		
-		//(TODO) if we are also displaying contours, allow this to be displayed as well 
+		//Contours are visible
+		if ([activeLayers containsObject:self.contoursLayer]) {
+
+			self.contoursLayer.visibleLayers = [NSArray arrayWithObjects:[NSNumber numberWithInt:currentIndex], nil]; 
+		}
+		
+		//Depths are visible
+		else if ([activeLayers containsObject:self.depthsLayer]) {
+			
+			self.depthsLayer.visibleLayers = [NSArray arrayWithObjects:[NSNumber numberWithInt:currentIndex], nil];
+		}
+			 
+		
 		
 	} 
 	
@@ -162,28 +178,28 @@
 		switch (currentIndex) {
 			case 0: //Contours (Lines) Only
 	
-				self.contoursLayer = [AGSDynamicMapServiceLayer dynamicMapServiceLayerWithMapServiceInfo:self.contoursInfo]; //Load the contours map and capture the visible layers
-				self.contoursLayer.visibleLayers = self.depthsLayer.visibleLayers; 
 				
-				[self.mapView removeMapLayerWithName:@"Depths Layer"]; //Remove depths layer 
-				self.depthsLayer = nil; 
+				if ([self.mapView.mapLayers containsObject:self.depthsLayer]) {
+					
+					self.contoursLayer.visibleLayers = self.depthsLayer.visibleLayers; //Copy Visibility from Contours
+				
+					[self.mapView removeMapLayerWithName:@"Depths Layer"]; //Remove depths layer 
+					[self.mapView insertMapLayer:self.contoursLayer withName:@"Contours Layer" atIndex:1];
+				}
+
 				break;
 				
 			case 1: //Depths (Map) Only 
 				
-				self.depthsLayer = [AGSDynamicMapServiceLayer dynamicMapServiceLayerWithMapServiceInfo:depthsInfo]; //Load the depths map and capture the visible layers 
-				self.depthsLayer.visibleLayers = self.contoursLayer.visibleLayers; 
+				self.depthsLayer.visibleLayers = self.contoursLayer.visibleLayers; //Copt Visibility from Depths
+	
 				
 				[self.mapView removeMapLayerWithName:@"Contours Layer"]; //Remove contours layer 
-				self.contoursLayer = nil;
+				[self.mapView insertMapLayer:self.depthsLayer withName:@"Depths Layer" atIndex:1]; 
+				
+				//self.contoursLayer = nil;
 				break;
 								
-			case 2: 
-				
- 
-				
-				
-				
 			default:
 				NSAssert(false, @"Error with the secondary control under the lines & maps context"); 
 				break;
@@ -250,7 +266,23 @@
 	//Add the C P Z contour segments
 	[self.secondaryControl insertSegmentWithTitle:@"Line" atIndex:0 animated:YES]; 
 	[self.secondaryControl insertSegmentWithTitle:@"Map" atIndex:1 animated:YES];
-	[self.secondaryControl insertSegmentWithTitle:@"Both" atIndex:2 animated:YES];
+	
+	//Find the currently visible layers in the map 
+	NSArray *activeLayers = self.mapView.mapLayers; 
+	
+	//Contours are visible
+	if ([activeLayers containsObject:self.contoursLayer]) {
+		
+		self.secondaryControl.selectedSegmentIndex = 0;
+		
+	}
+	
+	//Depths are visible
+	else if ([activeLayers containsObject:self.depthsLayer]) {
+		
+		self.secondaryControl.selectedSegmentIndex = 1; 
+		
+	}
 	
 	
 }
@@ -268,10 +300,6 @@
 	[[[delegate sender] dataReceivedListeners] addObject:self]; //Add self to the list of file received listeners
 	
 }
-
-
-
-
 
 
 

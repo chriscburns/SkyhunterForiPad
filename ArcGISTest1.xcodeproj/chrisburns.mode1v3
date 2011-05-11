@@ -257,7 +257,7 @@
 						<dict>
 							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 							<array>
-								<real>294</real>
+								<real>241</real>
 							</array>
 							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 							<array>
@@ -279,12 +279,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>18</integer>
+									<integer>9</integer>
+									<integer>6</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {294, 1063}}</string>
+							<string>{{0, 0}, {241, 1064}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -296,19 +297,19 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {311, 1081}}</string>
+						<string>{{0, 0}, {258, 1082}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
-							<real>294</real>
+							<real>241</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>9 56 1916 1122 0 0 1920 1178 </string>
+						<string>723 55 1183 1123 0 0 1920 1178 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
 					<key>Proportion</key>
-					<string>311pt</string>
+					<string>258pt</string>
 				</dict>
 				<dict>
 					<key>Dock</key>
@@ -321,7 +322,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MethodReceiver.h</string>
+								<string>ArcGISTest1ViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -329,26 +330,28 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MethodReceiver.h</string>
+										<string>ArcGISTest1ViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>43278554137B1CB300719B9F</string>
+										<string>43B732F4137B3B0400A1BCC1</string>
 										<key>history</key>
 										<array>
-											<string>435316EC137866E800832F28</string>
 											<string>435317561378897C00832F28</string>
 											<string>4353176B13788B1200832F28</string>
 											<string>435318231378AB6000832F28</string>
-											<string>435318251378AB6000832F28</string>
 											<string>4353184D1379B6AF00832F28</string>
 											<string>4353184E1379B6AF00832F28</string>
 											<string>435318CE137AFA4100832F28</string>
-											<string>43278513137B08CC00719B9F</string>
-											<string>43278515137B08CC00719B9F</string>
-											<string>43278536137B1BD300719B9F</string>
-											<string>43278542137B1C5400719B9F</string>
-											<string>43278540137B1C4F00719B9F</string>
+											<string>43B73237137B1F3B00A1BCC1</string>
+											<string>43B73238137B1F3B00A1BCC1</string>
+											<string>43B73239137B1F3B00A1BCC1</string>
+											<string>43B73265137B241900A1BCC1</string>
+											<string>43B73266137B241900A1BCC1</string>
+											<string>43B7328C137B2BF600A1BCC1</string>
+											<string>43B7328E137B2BF600A1BCC1</string>
+											<string>43B73290137B2BF600A1BCC1</string>
+											<string>43B732E5137B35E900A1BCC1</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -360,14 +363,70 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1600, 762}}</string>
+								<string>{{0, 0}, {920, 536}}</string>
 								<key>RubberWindowFrame</key>
-								<string>9 56 1916 1122 0 0 1920 1178 </string>
+								<string>723 55 1183 1123 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>762pt</string>
+							<string>536pt</string>
+						</dict>
+						<dict>
+							<key>ContentConfiguration</key>
+							<dict>
+								<key>PBXProjectModuleGUID</key>
+								<string>1CE0B20306471E060097A5F4</string>
+								<key>PBXProjectModuleLabel</key>
+								<string>ArcGISTest1ViewController.h</string>
+								<key>PBXSplitModuleInNavigatorKey</key>
+								<dict>
+									<key>Split0</key>
+									<dict>
+										<key>PBXProjectModuleGUID</key>
+										<string>1CE0B20406471E060097A5F4</string>
+										<key>PBXProjectModuleLabel</key>
+										<string>ArcGISTest1ViewController.h</string>
+										<key>_historyCapacity</key>
+										<integer>0</integer>
+										<key>bookmark</key>
+										<string>43B732F5137B3B0400A1BCC1</string>
+										<key>history</key>
+										<array>
+											<string>435317561378897C00832F28</string>
+											<string>4353176B13788B1200832F28</string>
+											<string>435318231378AB6000832F28</string>
+											<string>4353184D1379B6AF00832F28</string>
+											<string>4353184E1379B6AF00832F28</string>
+											<string>435318CE137AFA4100832F28</string>
+											<string>43B73237137B1F3B00A1BCC1</string>
+											<string>43B73238137B1F3B00A1BCC1</string>
+											<string>43B73265137B241900A1BCC1</string>
+											<string>43B73266137B241900A1BCC1</string>
+											<string>43B7328C137B2BF600A1BCC1</string>
+											<string>43B7328E137B2BF600A1BCC1</string>
+											<string>43B732B4137B31A100A1BCC1</string>
+											<string>43B732BE137B329C00A1BCC1</string>
+											<string>43B732BF137B329C00A1BCC1</string>
+										</array>
+									</dict>
+									<key>SplitCount</key>
+									<string>1</string>
+								</dict>
+								<key>StatusBarVisibility</key>
+								<true/>
+							</dict>
+							<key>GeometryConfiguration</key>
+							<dict>
+								<key>Frame</key>
+								<string>{{0, 541}, {920, 536}}</string>
+								<key>RubberWindowFrame</key>
+								<string>723 55 1183 1123 0 0 1920 1178 </string>
+							</dict>
+							<key>Module</key>
+							<string>PBXNavigatorGroup</string>
+							<key>Proportion</key>
+							<string>536pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -380,18 +439,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 767}, {1600, 314}}</string>
+								<string>{{0, 1082}, {920, 0}}</string>
 								<key>RubberWindowFrame</key>
-								<string>9 56 1916 1122 0 0 1920 1178 </string>
+								<string>723 55 1183 1123 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>314pt</string>
+							<string>0pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>1600pt</string>
+					<string>920pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -402,13 +461,15 @@
 				<string>PBXSmartGroupTreeModule</string>
 				<string>XCModuleDock</string>
 				<string>PBXNavigatorGroup</string>
+				<string>PBXNavigatorGroup</string>
 				<string>XCDetailModule</string>
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>432784BC137B021A00719B9F</string>
+				<string>43B73201137B1D8100A1BCC1</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>432784BD137B021A00719B9F</string>
+				<string>43B73202137B1D8100A1BCC1</string>
+				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -546,13 +607,17 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>43B732F6137B3B0400A1BCC1</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
+		<string>43B7323E137B1F3B00A1BCC1</string>
+		<string>43B7323F137B1F3B00A1BCC1</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>431010F11371EDEB008F3D95</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/chrisburns/Development/ArcGISTest1/ArcGISTest1.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>9 56 1916 1122 0 0 1920 1178 </string>
+	<string>723 55 1183 1123 0 0 1920 1178 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -573,7 +638,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ArcGISTest1ViewController.m</string>
+								<string>ArcGISTest1AppDelegate.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -631,7 +696,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>431010F11371EDEB008F3D95</string>
-				<string>432784AE137B01FC00719B9F</string>
+				<string>43B731F7137B1D7900A1BCC1</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -675,8 +740,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {740, 501}}</string>
-											<string>{{740, 0}, {889, 501}}</string>
+											<string>{{0, 0}, {740, 507}}</string>
+											<string>{{740, 0}, {889, 507}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -691,8 +756,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {1629, 501}}</string>
-											<string>{{0, 501}, {1629, 463}}</string>
+											<string>{{0, 0}, {1629, 507}}</string>
+											<string>{{0, 507}, {1629, 457}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -725,12 +790,12 @@
 										<real>550</real>
 									</array>
 									<key>Frame</key>
-									<string>{{740, 0}, {889, 501}}</string>
+									<string>{{740, 0}, {889, 507}}</string>
 									<key>RubberWindowFrame</key>
-									<string>291 56 1629 1005 0 0 1920 1178 </string>
+									<string>278 104 1629 1005 0 0 1920 1178 </string>
 								</dict>
 								<key>RubberWindowFrame</key>
-								<string>291 56 1629 1005 0 0 1920 1178 </string>
+								<string>278 104 1629 1005 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugSessionModule</string>
@@ -753,18 +818,18 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>432784AF137B01FC00719B9F</string>
+				<string>43B731F8137B1D7900A1BCC1</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>432784B0137B01FC00719B9F</string>
-				<string>432784B1137B01FC00719B9F</string>
-				<string>432784B2137B01FC00719B9F</string>
-				<string>432784B3137B01FC00719B9F</string>
-				<string>432784B4137B01FC00719B9F</string>
+				<string>43B731F9137B1D7900A1BCC1</string>
+				<string>43B731FA137B1D7900A1BCC1</string>
+				<string>43B731FB137B1D7900A1BCC1</string>
+				<string>43B731FC137B1D7900A1BCC1</string>
+				<string>43B731FD137B1D7900A1BCC1</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
 			<key>WindowString</key>
-			<string>291 56 1629 1005 0 0 1920 1178 </string>
+			<string>278 104 1629 1005 0 0 1920 1178 </string>
 			<key>WindowToolGUID</key>
 			<string>1CD10A99069EF8BA00B06720</string>
 			<key>WindowToolIsVisible</key>
@@ -791,7 +856,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CDD528C0622207200134675</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MethodReceiver.h</string>
+										<string></string>
 										<key>StatusBarVisibility</key>
 										<true/>
 									</dict>
@@ -849,8 +914,8 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D57069F1CE1000CFCEE</string>
-				<string>432784B5137B01FC00719B9F</string>
-				<string>432784B6137B01FC00719B9F</string>
+				<string>43B73288137B2BA100A1BCC1</string>
+				<string>43B73289137B2BA100A1BCC1</string>
 				<string>1CDD528C0622207200134675</string>
 				<string>1CD0528E0623707200166675</string>
 			</array>
@@ -890,18 +955,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {753, 331}}</string>
+								<string>{{0, 0}, {719, 345}}</string>
 								<key>RubberWindowFrame</key>
-								<string>25 783 753 372 0 0 1920 1178 </string>
+								<string>4 350 719 386 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
 							<key>Proportion</key>
-							<string>331pt</string>
+							<string>345pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>331pt</string>
+					<string>345pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -915,17 +980,17 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>435316D1137863ED00832F28</string>
+				<string>43B7321F137B1E8700A1BCC1</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>25 783 753 372 0 0 1920 1178 </string>
+			<string>4 350 719 386 0 0 1920 1178 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

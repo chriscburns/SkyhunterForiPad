@@ -20,9 +20,12 @@
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
     
+	/*
 	//Send a request to server for a port number to setup socket connections 
 	sender = [[MethodSender alloc] init];
 	[sender registerDevice:self andSelector:@selector(setupMethodReceiver:)]; //target = self, action = setupMethodReceiver
+	*/
+	
 	
     // Override point for customization after app launch    
     [window addSubview:viewController.view];
