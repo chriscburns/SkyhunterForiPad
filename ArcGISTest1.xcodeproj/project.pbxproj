@@ -18,6 +18,20 @@
 		3B7F19E910D1BEB900AFD7FB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B7F19E810D1BEB900AFD7FB /* CoreLocation.framework */; };
 		3B7F19EB10D1BEB900AFD7FB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B7F19EA10D1BEB900AFD7FB /* QuartzCore.framework */; };
 		3B7F19EF10D1BED200AFD7FB /* libArcGIS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B7F19EE10D1BED200AFD7FB /* libArcGIS.a */; };
+		432784F2137B02AA00719B9F /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 432784D6137B02AA00719B9F /* Connection.m */; };
+		432784F3137B02AA00719B9F /* DataUploadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 432784D8137B02AA00719B9F /* DataUploadOperation.m */; };
+		432784F4137B02AA00719B9F /* MethodSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 432784DA137B02AA00719B9F /* MethodSender.m */; };
+		432784F5137B02AA00719B9F /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 432784DD137B02AA00719B9F /* AsyncSocket.m */; };
+		432784F6137B02AA00719B9F /* MethodCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 432784DF137B02AA00719B9F /* MethodCollection.m */; };
+		432784F7137B02AA00719B9F /* MethodReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 432784E1137B02AA00719B9F /* MethodReceiver.m */; };
+		432784F8137B02AA00719B9F /* NSString+UtilityCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 432784E3137B02AA00719B9F /* NSString+UtilityCategory.m */; };
+		432784F9137B02AA00719B9F /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 432784E6137B02AA00719B9F /* CXMLDocument.m */; };
+		432784FA137B02AA00719B9F /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 432784E8137B02AA00719B9F /* CXMLDocument_PrivateExtensions.m */; };
+		432784FB137B02AA00719B9F /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 432784EA137B02AA00719B9F /* CXMLElement.m */; };
+		432784FC137B02AA00719B9F /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 432784EC137B02AA00719B9F /* CXMLNode.m */; };
+		432784FD137B02AA00719B9F /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 432784EE137B02AA00719B9F /* CXMLNode_PrivateExtensions.m */; };
+		432784FE137B02AA00719B9F /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 432784F0137B02AA00719B9F /* CXMLNode_XPathExtensions.m */; };
+		43278519137B0AED00719B9F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43278518137B0AED00719B9F /* CFNetwork.framework */; };
 		AF03A3E313565931002EDADF /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF03A3E213565931002EDADF /* CoreText.framework */; };
 		AF4AE07412E670EA00C38377 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4AE07312E670EA00C38377 /* libstdc++.dylib */; };
 		AF6FBC8C12550E5300F476B4 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF6FBC8B12550E5300F476B4 /* MainWindow-iPad.xib */; };
@@ -40,6 +54,34 @@
 		3B7F19E810D1BEB900AFD7FB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		3B7F19EA10D1BEB900AFD7FB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3B7F19EE10D1BED200AFD7FB /* libArcGIS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libArcGIS.a; path = $HOME/Library/SDKs/ArcGIS/iphoneos.sdk/usr/local/lib/libArcGIS.a; sourceTree = "<absolute>"; };
+		432784D5137B02AA00719B9F /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		432784D6137B02AA00719B9F /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		432784D7137B02AA00719B9F /* DataUploadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataUploadOperation.h; sourceTree = "<group>"; };
+		432784D8137B02AA00719B9F /* DataUploadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataUploadOperation.m; sourceTree = "<group>"; };
+		432784D9137B02AA00719B9F /* MethodSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodSender.h; sourceTree = "<group>"; };
+		432784DA137B02AA00719B9F /* MethodSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodSender.m; sourceTree = "<group>"; };
+		432784DC137B02AA00719B9F /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		432784DD137B02AA00719B9F /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		432784DE137B02AA00719B9F /* MethodCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodCollection.h; sourceTree = "<group>"; };
+		432784DF137B02AA00719B9F /* MethodCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodCollection.m; sourceTree = "<group>"; };
+		432784E0137B02AA00719B9F /* MethodReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodReceiver.h; sourceTree = "<group>"; };
+		432784E1137B02AA00719B9F /* MethodReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodReceiver.m; sourceTree = "<group>"; };
+		432784E2137B02AA00719B9F /* NSString+UtilityCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UtilityCategory.h"; sourceTree = "<group>"; };
+		432784E3137B02AA00719B9F /* NSString+UtilityCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UtilityCategory.m"; sourceTree = "<group>"; };
+		432784E5137B02AA00719B9F /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument.h; sourceTree = "<group>"; };
+		432784E6137B02AA00719B9F /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument.m; sourceTree = "<group>"; };
+		432784E7137B02AA00719B9F /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
+		432784E8137B02AA00719B9F /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_PrivateExtensions.m; sourceTree = "<group>"; };
+		432784E9137B02AA00719B9F /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement.h; sourceTree = "<group>"; };
+		432784EA137B02AA00719B9F /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement.m; sourceTree = "<group>"; };
+		432784EB137B02AA00719B9F /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode.h; sourceTree = "<group>"; };
+		432784EC137B02AA00719B9F /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode.m; sourceTree = "<group>"; };
+		432784ED137B02AA00719B9F /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
+		432784EE137B02AA00719B9F /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_PrivateExtensions.m; sourceTree = "<group>"; };
+		432784EF137B02AA00719B9F /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
+		432784F0137B02AA00719B9F /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_XPathExtensions.m; sourceTree = "<group>"; };
+		432784F1137B02AA00719B9F /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
+		43278518137B0AED00719B9F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* ArcGISTest1-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ArcGISTest1-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		AF03A3E213565931002EDADF /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		AF4AE07312E670EA00C38377 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/gcc/arm-apple-darwin10/4.0.1/libstdc++.dylib"; sourceTree = SDKROOT; };
@@ -60,6 +102,7 @@
 				3B7F19EF10D1BED200AFD7FB /* libArcGIS.a in Frameworks */,
 				AF4AE07412E670EA00C38377 /* libstdc++.dylib in Frameworks */,
 				AF03A3E313565931002EDADF /* CoreText.framework in Frameworks */,
+				43278519137B0AED00719B9F /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +131,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				432784D3137B029800719B9F /* iOS Remote Connector  */,
 				AFE9586C12FB4BDF00A39578 /* ArcGIS.bundle */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -129,8 +173,67 @@
 				3B7F19EE10D1BED200AFD7FB /* libArcGIS.a */,
 				AF4AE07312E670EA00C38377 /* libstdc++.dylib */,
 				AF03A3E213565931002EDADF /* CoreText.framework */,
+				43278518137B0AED00719B9F /* CFNetwork.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		432784D3137B029800719B9F /* iOS Remote Connector  */ = {
+			isa = PBXGroup;
+			children = (
+				432784D4137B02AA00719B9F /* Method Sender */,
+				432784DB137B02AA00719B9F /* Method Receiver */,
+				432784E4137B02AA00719B9F /* TouchXML */,
+			);
+			name = "iOS Remote Connector ";
+			sourceTree = "<group>";
+		};
+		432784D4137B02AA00719B9F /* Method Sender */ = {
+			isa = PBXGroup;
+			children = (
+				432784D5137B02AA00719B9F /* Connection.h */,
+				432784D6137B02AA00719B9F /* Connection.m */,
+				432784D7137B02AA00719B9F /* DataUploadOperation.h */,
+				432784D8137B02AA00719B9F /* DataUploadOperation.m */,
+				432784D9137B02AA00719B9F /* MethodSender.h */,
+				432784DA137B02AA00719B9F /* MethodSender.m */,
+			);
+			path = "Method Sender";
+			sourceTree = "<group>";
+		};
+		432784DB137B02AA00719B9F /* Method Receiver */ = {
+			isa = PBXGroup;
+			children = (
+				432784DC137B02AA00719B9F /* AsyncSocket.h */,
+				432784DD137B02AA00719B9F /* AsyncSocket.m */,
+				432784DE137B02AA00719B9F /* MethodCollection.h */,
+				432784DF137B02AA00719B9F /* MethodCollection.m */,
+				432784E0137B02AA00719B9F /* MethodReceiver.h */,
+				432784E1137B02AA00719B9F /* MethodReceiver.m */,
+				432784E2137B02AA00719B9F /* NSString+UtilityCategory.h */,
+				432784E3137B02AA00719B9F /* NSString+UtilityCategory.m */,
+			);
+			path = "Method Receiver";
+			sourceTree = "<group>";
+		};
+		432784E4137B02AA00719B9F /* TouchXML */ = {
+			isa = PBXGroup;
+			children = (
+				432784E5137B02AA00719B9F /* CXMLDocument.h */,
+				432784E6137B02AA00719B9F /* CXMLDocument.m */,
+				432784E7137B02AA00719B9F /* CXMLDocument_PrivateExtensions.h */,
+				432784E8137B02AA00719B9F /* CXMLDocument_PrivateExtensions.m */,
+				432784E9137B02AA00719B9F /* CXMLElement.h */,
+				432784EA137B02AA00719B9F /* CXMLElement.m */,
+				432784EB137B02AA00719B9F /* CXMLNode.h */,
+				432784EC137B02AA00719B9F /* CXMLNode.m */,
+				432784ED137B02AA00719B9F /* CXMLNode_PrivateExtensions.h */,
+				432784EE137B02AA00719B9F /* CXMLNode_PrivateExtensions.m */,
+				432784EF137B02AA00719B9F /* CXMLNode_XPathExtensions.h */,
+				432784F0137B02AA00719B9F /* CXMLNode_XPathExtensions.m */,
+				432784F1137B02AA00719B9F /* TouchXML.h */,
+			);
+			path = TouchXML;
 			sourceTree = "<group>";
 		};
 		AF6FBC8A12550E5300F476B4 /* Resources-iPad */ = {
@@ -207,6 +310,19 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* ArcGISTest1AppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* ArcGISTest1ViewController.m in Sources */,
+				432784F2137B02AA00719B9F /* Connection.m in Sources */,
+				432784F3137B02AA00719B9F /* DataUploadOperation.m in Sources */,
+				432784F4137B02AA00719B9F /* MethodSender.m in Sources */,
+				432784F5137B02AA00719B9F /* AsyncSocket.m in Sources */,
+				432784F6137B02AA00719B9F /* MethodCollection.m in Sources */,
+				432784F7137B02AA00719B9F /* MethodReceiver.m in Sources */,
+				432784F8137B02AA00719B9F /* NSString+UtilityCategory.m in Sources */,
+				432784F9137B02AA00719B9F /* CXMLDocument.m in Sources */,
+				432784FA137B02AA00719B9F /* CXMLDocument_PrivateExtensions.m in Sources */,
+				432784FB137B02AA00719B9F /* CXMLElement.m in Sources */,
+				432784FC137B02AA00719B9F /* CXMLNode.m in Sources */,
+				432784FD137B02AA00719B9F /* CXMLNode_PrivateExtensions.m in Sources */,
+				432784FE137B02AA00719B9F /* CXMLNode_XPathExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +389,8 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
+				OTHER_LDFLAGS = "-lxml2";
 				PREBINDING = NO;
 				SDKROOT = iphoneos4.2;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -287,6 +405,8 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				OTHER_LDFLAGS = "-lxml2";
 				PREBINDING = NO;
 				SDKROOT = iphoneos4.2;
 				TARGETED_DEVICE_FAMILY = 2;

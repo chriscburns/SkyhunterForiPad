@@ -3,10 +3,11 @@
 //  ArcGISTest1
 //
 //  Created by Chris Burns on 11-05-04.
-//  Copyright __MyCompanyName__ 2011. All rights reserved.
+//  Copyright Skyhunter Exploration Ltd.  2011. All rights reserved.
 //
 
 #import "ArcGISTest1ViewController.h"
+#import "ArcGISTest1AppDelegate.h"
 
 @implementation ArcGISTest1ViewController
 
@@ -173,7 +174,7 @@
 				self.depthsLayer = [AGSDynamicMapServiceLayer dynamicMapServiceLayerWithMapServiceInfo:depthsInfo]; //Load the depths map and capture the visible layers 
 				self.depthsLayer.visibleLayers = self.contoursLayer.visibleLayers; 
 				
-				[self.mapView removeMapLayerWithName:"Contours Layer"]; //Remove contours layer 
+				[self.mapView removeMapLayerWithName:@"Contours Layer"]; //Remove contours layer 
 				self.contoursLayer = nil;
 				break;
 								
@@ -253,6 +254,28 @@
 	
 	
 }
+
+
+#pragma mark iOS Remote Connector Functions
+- (void) registerAllListeners {
+	
+	ArcGISTest1AppDelegate *delegate = (ArcGISTest1AppDelegate *) [[UIApplication sharedApplication] delegate];
+	
+	//Register to listen for method calls 
+	[[[delegate receiver] methodResponders] addObject:self]; //Add self to the list of method responders
+	
+	//Register to listen for received data (as in requested files)
+	[[[delegate sender] dataReceivedListeners] addObject:self]; //Add self to the list of file received listeners
+	
+}
+
+
+
+
+
+
+
+
 
 
 

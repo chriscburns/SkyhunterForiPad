@@ -2,16 +2,18 @@
 {
 	1D3623240D0F684500981E51 /* ArcGISTest1AppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1244, 719}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 503}";
+			sepNavIntBoundsRect = "{{0, 0}, {1539, 730}}";
+			sepNavSelRange = "{457, 0}";
+			sepNavVisRange = "{0, 737}";
+			sepNavWindowFrame = "{{4, 1}, {958, 1177}}";
 		};
 	};
 	1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1244, 742}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 638}";
+			sepNavIntBoundsRect = "{{0, 0}, {1539, 767}}";
+			sepNavSelRange = "{297, 0}";
+			sepNavVisRange = "{0, 1705}";
+			sepNavWindowFrame = "{{4, 1}, {958, 1177}}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* ArcGISTest1 */ = {
@@ -22,18 +24,19 @@
 	};
 	28D7ACF60DDB3853001CB0EB /* ArcGISTest1ViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1244, 754}}";
-			sepNavSelRange = "{576, 0}";
-			sepNavVisRange = "{0, 1296}";
+			sepNavIntBoundsRect = "{{0, 0}, {1539, 754}}";
+			sepNavSelRange = "{586, 0}";
+			sepNavVisRange = "{0, 1307}";
 			sepNavWindowFrame = "{{19, 10}, {1857, 1163}}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* ArcGISTest1ViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1265, 3705}}";
-			sepNavSelRange = "{2776, 0}";
-			sepNavVisRange = "{1236, 1725}";
-			sepNavWindowFrame = "{{19, 10}, {1857, 1163}}";
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{2901, 276}\";\n            s = 0;\n        },\n                {\n            r = \"{5030, 643}\";\n            s = 0;\n        },\n                {\n            r = \"{5701, 637}\";\n            s = 0;\n        },\n                {\n            r = \"{6372, 363}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 7631}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1265, 3133}}";
+			sepNavSelRange = "{4455, 0}";
+			sepNavVisRange = "{3614, 969}";
+			sepNavWindowFrame = "{{4, 1}, {958, 1177}}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -41,8 +44,10 @@
 		activeExecutable = 431010E11371EDD4008F3D95 /* ArcGISTest1 */;
 		activeSDKPreference = iphonesimulator4.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* ArcGISTest1 */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* ArcGISTest1 */,
+		);
 		breakpoints = (
-			4353188B1379C22300832F28 /* ArcGISTest1ViewController.m:205 */,
 		);
 		codeSenseManager = 431010FB1371EDEB008F3D95 /* Code sense */;
 		executables = (
@@ -78,7 +83,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					1066,
+					1361,
 					20,
 					48,
 					43,
@@ -93,6 +98,18 @@
 					PBXFileDataSource_Errors_ColumnID,
 					PBXFileDataSource_Warnings_ColumnID,
 					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					1390,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
 				);
 			};
 			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
@@ -119,24 +136,24 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 326827739;
-			PBXWorkspaceStateSaveDate = 326827739;
+			PBXPerProjectTemplateStateSaveDate = 326828095;
+			PBXWorkspaceStateSaveDate = 326828095;
 		};
 		perUserProjectItems = {
-			43505674137AFEEC004C7CB6 /* PBXTextBookmark */ = 43505674137AFEEC004C7CB6 /* PBXTextBookmark */;
-			435316EC137866E800832F28 = 435316EC137866E800832F28 /* PlistBookmark */;
-			435316EE137866E800832F28 = 435316EE137866E800832F28 /* PBXTextBookmark */;
-			435317561378897C00832F28 = 435317561378897C00832F28 /* PBXTextBookmark */;
-			435317581378897C00832F28 = 435317581378897C00832F28 /* PBXTextBookmark */;
-			4353176B13788B1200832F28 = 4353176B13788B1200832F28 /* PBXTextBookmark */;
-			435318231378AB6000832F28 = 435318231378AB6000832F28 /* PBXTextBookmark */;
-			435318251378AB6000832F28 = 435318251378AB6000832F28 /* PBXTextBookmark */;
-			4353184D1379B6AF00832F28 = 4353184D1379B6AF00832F28 /* PBXTextBookmark */;
-			4353184E1379B6AF00832F28 = 4353184E1379B6AF00832F28 /* PBXTextBookmark */;
-			435318BF1379C95800832F28 = 435318BF1379C95800832F28 /* PBXTextBookmark */;
-			435318CE137AFA4100832F28 = 435318CE137AFA4100832F28 /* PBXTextBookmark */;
-			435318CF137AFA4100832F28 = 435318CF137AFA4100832F28 /* PBXTextBookmark */;
-			435318D0137AFA4100832F28 = 435318D0137AFA4100832F28 /* PBXTextBookmark */;
+			43278513137B08CC00719B9F /* PBXTextBookmark */ = 43278513137B08CC00719B9F /* PBXTextBookmark */;
+			43278515137B08CC00719B9F /* PBXTextBookmark */ = 43278515137B08CC00719B9F /* PBXTextBookmark */;
+			43278536137B1BD300719B9F /* PBXTextBookmark */ = 43278536137B1BD300719B9F /* PBXTextBookmark */;
+			43278540137B1C4F00719B9F /* PBXTextBookmark */ = 43278540137B1C4F00719B9F /* PBXTextBookmark */;
+			43278542137B1C5400719B9F /* PBXTextBookmark */ = 43278542137B1C5400719B9F /* PBXTextBookmark */;
+			43278554137B1CB300719B9F /* PBXTextBookmark */ = 43278554137B1CB300719B9F /* PBXTextBookmark */;
+			435316EC137866E800832F28 /* PlistBookmark */ = 435316EC137866E800832F28 /* PlistBookmark */;
+			435317561378897C00832F28 /* PBXTextBookmark */ = 435317561378897C00832F28 /* PBXTextBookmark */;
+			4353176B13788B1200832F28 /* PBXTextBookmark */ = 4353176B13788B1200832F28 /* PBXTextBookmark */;
+			435318231378AB6000832F28 /* PBXTextBookmark */ = 435318231378AB6000832F28 /* PBXTextBookmark */;
+			435318251378AB6000832F28 /* PBXTextBookmark */ = 435318251378AB6000832F28 /* PBXTextBookmark */;
+			4353184D1379B6AF00832F28 /* PBXTextBookmark */ = 4353184D1379B6AF00832F28 /* PBXTextBookmark */;
+			4353184E1379B6AF00832F28 /* PBXTextBookmark */ = 4353184E1379B6AF00832F28 /* PBXTextBookmark */;
+			435318CE137AFA4100832F28 /* PBXTextBookmark */ = 435318CE137AFA4100832F28 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 431010FA1371EDEB008F3D95 /* Source Control */;
 		userBuildSettings = {
@@ -205,15 +222,69 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	43505674137AFEEC004C7CB6 /* PBXTextBookmark */ = {
+	432784E0137B02AA00719B9F /* MethodReceiver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {720, 715}}";
+			sepNavSelRange = "{782, 8}";
+			sepNavVisRange = "{531, 352}";
+		};
+	};
+	43278513137B08CC00719B9F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ArcGISTest1ViewController.h */;
+		name = "ArcGISTest1ViewController.h: 26";
+		rLen = 0;
+		rLoc = 586;
+		rType = 0;
+		vrLen = 1307;
+		vrLoc = 0;
+	};
+	43278515137B08CC00719B9F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */;
+		name = "ArcGISTest1AppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 297;
+		rType = 0;
+		vrLen = 1705;
+		vrLoc = 0;
+	};
+	43278536137B1BD300719B9F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ArcGISTest1AppDelegate.h */;
+		name = "ArcGISTest1AppDelegate.h: 20";
+		rLen = 0;
+		rLoc = 457;
+		rType = 0;
+		vrLen = 737;
+		vrLoc = 0;
+	};
+	43278540137B1C4F00719B9F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 432784E0137B02AA00719B9F /* MethodReceiver.h */;
+		rLen = 8;
+		rLoc = 782;
+		rType = 0;
+	};
+	43278542137B1C5400719B9F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* ArcGISTest1ViewController.m */;
-		name = "ArcGISTest1ViewController.m: 91";
+		name = "ArcGISTest1ViewController.m: 98";
 		rLen = 0;
-		rLoc = 2776;
+		rLoc = 2828;
 		rType = 0;
-		vrLen = 1725;
-		vrLoc = 1236;
+		vrLen = 1683;
+		vrLoc = 2688;
+	};
+	43278554137B1CB300719B9F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 432784E0137B02AA00719B9F /* MethodReceiver.h */;
+		name = "MethodReceiver.h: 19";
+		rLen = 8;
+		rLoc = 782;
+		rType = 0;
+		vrLen = 1348;
+		vrLoc = 0;
 	};
 	435316EC137866E800832F28 /* PlistBookmark */ = {
 		isa = PlistBookmark;
@@ -226,16 +297,6 @@
 		name = "/Users/chrisburns/Development/ArcGISTest1/ArcGISTest1-Info.plist";
 		rLen = 0;
 		rLoc = 9223372036854775808;
-	};
-	435316EE137866E800832F28 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */;
-		name = "ArcGISTest1AppDelegate.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 638;
-		vrLoc = 0;
 	};
 	435317561378897C00832F28 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -253,16 +314,6 @@
 		name = AGSCallout.h;
 		path = /Users/chrisburns/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSCallout.h;
 		sourceTree = "<absolute>";
-	};
-	435317581378897C00832F28 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* ArcGISTest1AppDelegate.h */;
-		name = "ArcGISTest1AppDelegate.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 503;
-		vrLoc = 0;
 	};
 	4353175A1378897C00832F28 /* AGSMapView.h */ = {
 		isa = PBXFileReference;
@@ -349,34 +400,6 @@
 		vrLen = 1615;
 		vrLoc = 398;
 	};
-	4353188B1379C22300832F28 /* ArcGISTest1ViewController.m:205 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = 28D7ACF70DDB3853001CB0EB /* ArcGISTest1ViewController.m */;
-		functionName = "-loadDepthControl";
-		hitCount = 0;
-		ignoreCount = 0;
-		lineNumber = 205;
-		location = ArcGISTest1;
-		modificationTime = 326748781.460944;
-		originalNumberOfMultipleMatches = 1;
-		state = 1;
-	};
-	435318BF1379C95800832F28 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* ArcGISTest1ViewController.h */;
-		name = "ArcGISTest1ViewController.h: 26";
-		rLen = 0;
-		rLoc = 576;
-		rType = 0;
-		vrLen = 1296;
-		vrLoc = 0;
-	};
 	435318CA137AF2CC00832F28 /* setup git PATH for non-terminal programs.sh */ = {
 		isa = PBXFileReference;
 		lastKnownFileType = text.script.sh;
@@ -392,26 +415,6 @@
 		rLoc = 0;
 		rType = 0;
 		vrLen = 953;
-		vrLoc = 0;
-	};
-	435318CF137AFA4100832F28 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* ArcGISTest1ViewController.m */;
-		name = "ArcGISTest1ViewController.m: 95";
-		rLen = 0;
-		rLoc = 2776;
-		rType = 0;
-		vrLen = 1274;
-		vrLoc = 1884;
-	};
-	435318D0137AFA4100832F28 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* ArcGISTest1ViewController.m */;
-		name = "ArcGISTest1ViewController.m: 91";
-		rLen = 0;
-		rLoc = 2776;
-		rType = 0;
-		vrLen = 1683;
 		vrLoc = 0;
 	};
 }
