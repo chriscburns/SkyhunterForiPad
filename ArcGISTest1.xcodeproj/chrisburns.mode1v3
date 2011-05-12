@@ -279,7 +279,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>9</integer>
+									<integer>8</integer>
 									<integer>6</integer>
 									<integer>0</integer>
 								</array>
@@ -304,7 +304,7 @@
 							<real>241</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>723 55 1183 1123 0 0 1920 1178 </string>
+						<string>645 41 1183 1123 0 0 1920 1178 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -322,7 +322,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ArcGISTest1ViewController.m</string>
+								<string>ArcGISTest1AppDelegate.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -330,11 +330,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ArcGISTest1ViewController.m</string>
+										<string>ArcGISTest1AppDelegate.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>43B732F4137B3B0400A1BCC1</string>
+										<string>43B73329137C962F00A1BCC1</string>
 										<key>history</key>
 										<array>
 											<string>435317561378897C00832F28</string>
@@ -345,13 +345,14 @@
 											<string>435318CE137AFA4100832F28</string>
 											<string>43B73237137B1F3B00A1BCC1</string>
 											<string>43B73238137B1F3B00A1BCC1</string>
-											<string>43B73239137B1F3B00A1BCC1</string>
-											<string>43B73265137B241900A1BCC1</string>
-											<string>43B73266137B241900A1BCC1</string>
 											<string>43B7328C137B2BF600A1BCC1</string>
 											<string>43B7328E137B2BF600A1BCC1</string>
 											<string>43B73290137B2BF600A1BCC1</string>
-											<string>43B732E5137B35E900A1BCC1</string>
+											<string>43B73311137C94B900A1BCC1</string>
+											<string>43B73312137C94B900A1BCC1</string>
+											<string>43B73313137C94B900A1BCC1</string>
+											<string>43B73314137C94B900A1BCC1</string>
+											<string>43B73315137C94B900A1BCC1</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -365,7 +366,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {920, 536}}</string>
 								<key>RubberWindowFrame</key>
-								<string>723 55 1183 1123 0 0 1920 1178 </string>
+								<string>645 41 1183 1123 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -390,7 +391,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>43B732F5137B3B0400A1BCC1</string>
+										<string>43B7332A137C962F00A1BCC1</string>
 										<key>history</key>
 										<array>
 											<string>435317561378897C00832F28</string>
@@ -421,7 +422,7 @@
 								<key>Frame</key>
 								<string>{{0, 541}, {920, 536}}</string>
 								<key>RubberWindowFrame</key>
-								<string>723 55 1183 1123 0 0 1920 1178 </string>
+								<string>645 41 1183 1123 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -441,7 +442,7 @@
 								<key>Frame</key>
 								<string>{{0, 1082}, {920, 0}}</string>
 								<key>RubberWindowFrame</key>
-								<string>723 55 1183 1123 0 0 1920 1178 </string>
+								<string>645 41 1183 1123 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -607,7 +608,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>43B732F6137B3B0400A1BCC1</string>
+		<string>43B7332B137C962F00A1BCC1</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>43B7323E137B1F3B00A1BCC1</string>
 		<string>43B7323F137B1F3B00A1BCC1</string>
@@ -617,7 +618,7 @@
 		<string>/Users/chrisburns/Development/ArcGISTest1/ArcGISTest1.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>723 55 1183 1123 0 0 1920 1178 </string>
+	<string>645 41 1183 1123 0 0 1920 1178 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -638,7 +639,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ArcGISTest1AppDelegate.m</string>
+								<string>ArcGISTest1ViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -955,18 +956,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {719, 345}}</string>
+								<string>{{0, 0}, {719, 198}}</string>
 								<key>RubberWindowFrame</key>
-								<string>4 350 719 386 0 0 1920 1178 </string>
+								<string>4 56 719 239 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
 							<key>Proportion</key>
-							<string>345pt</string>
+							<string>198pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>345pt</string>
+					<string>198pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -986,7 +987,7 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>4 350 719 386 0 0 1920 1178 </string>
+			<string>4 56 719 239 0 0 1920 1178 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>

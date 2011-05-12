@@ -2,7 +2,7 @@
 {
 	1D3623240D0F684500981E51 /* ArcGISTest1AppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {859, 853}}";
+			sepNavIntBoundsRect = "{{0, 0}, {859, 479}}";
 			sepNavSelRange = "{267, 0}";
 			sepNavVisRange = "{0, 737}";
 			sepNavWindowFrame = "{{4, 1}, {958, 1177}}";
@@ -10,9 +10,9 @@
 	};
 	1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1020, 767}}";
-			sepNavSelRange = "{1572, 0}";
-			sepNavVisRange = "{569, 1069}";
+			sepNavIntBoundsRect = "{{0, 0}, {1020, 806}}";
+			sepNavSelRange = "{689, 0}";
+			sepNavVisRange = "{567, 1149}";
 			sepNavWindowFrame = "{{4, 1}, {958, 1177}}";
 		};
 	};
@@ -24,7 +24,7 @@
 	};
 	28D7ACF60DDB3853001CB0EB /* ArcGISTest1ViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {859, 702}}";
+			sepNavIntBoundsRect = "{{0, 0}, {859, 728}}";
 			sepNavSelRange = "{270, 10}";
 			sepNavVisRange = "{0, 989}";
 			sepNavWindowFrame = "{{19, 10}, {1857, 1163}}";
@@ -32,22 +32,23 @@
 	};
 	28D7ACF70DDB3853001CB0EB /* ArcGISTest1ViewController.m */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{3097, 276}\";\n            s = 0;\n        },\n                {\n            r = \"{6161, 637}\";\n            s = 0;\n        },\n                {\n            r = \"{7581, 435}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 8394}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {950, 3510}}";
-			sepNavSelRange = "{5857, 0}";
-			sepNavVisRange = "{5301, 1142}";
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{3097, 276}\";\n            s = 0;\n        },\n                {\n            r = \"{6161, 637}\";\n            s = 0;\n        },\n                {\n            r = \"{6832, 670}\";\n            s = 0;\n        },\n                {\n            r = \"{7581, 435}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 8394}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {908, 3406}}";
+			sepNavSelRange = "{5891, 0}";
+			sepNavVisRange = "{3263, 1016}";
 			sepNavWindowFrame = "{{4, 1}, {958, 1177}}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 431010E11371EDD4008F3D95 /* ArcGISTest1 */;
-		activeSDKPreference = iphonesimulator4.2;
+		activeSDKPreference = iphoneos4.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* ArcGISTest1 */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* ArcGISTest1 */,
 		);
 		breakpoints = (
+			43B7330F137C94B300A1BCC1 /* ArcGISTest1AppDelegate.m:40 */,
 		);
 		codeSenseManager = 431010FB1371EDEB008F3D95 /* Code sense */;
 		executables = (
@@ -231,6 +232,23 @@
 			43B732F0137B369200A1BCC1 /* PBXTextBookmark */ = 43B732F0137B369200A1BCC1 /* PBXTextBookmark */;
 			43B732F4137B3B0400A1BCC1 /* PBXTextBookmark */ = 43B732F4137B3B0400A1BCC1 /* PBXTextBookmark */;
 			43B732F5137B3B0400A1BCC1 /* PBXTextBookmark */ = 43B732F5137B3B0400A1BCC1 /* PBXTextBookmark */;
+			43B732FB137C417A00A1BCC1 /* PBXTextBookmark */ = 43B732FB137C417A00A1BCC1 /* PBXTextBookmark */;
+			43B73308137C4A6F00A1BCC1 /* PBXTextBookmark */ = 43B73308137C4A6F00A1BCC1 /* PBXTextBookmark */;
+			43B73309137C4A6F00A1BCC1 /* XCBuildMessageTextBookmark */ = 43B73309137C4A6F00A1BCC1 /* XCBuildMessageTextBookmark */;
+			43B7330A137C4A6F00A1BCC1 /* PBXTextBookmark */ = 43B7330A137C4A6F00A1BCC1 /* PBXTextBookmark */;
+			43B73311137C94B900A1BCC1 /* PBXBookmark */ = 43B73311137C94B900A1BCC1 /* PBXBookmark */;
+			43B73312137C94B900A1BCC1 /* PBXTextBookmark */ = 43B73312137C94B900A1BCC1 /* PBXTextBookmark */;
+			43B73313137C94B900A1BCC1 /* PBXTextBookmark */ = 43B73313137C94B900A1BCC1 /* PBXTextBookmark */;
+			43B73314137C94B900A1BCC1 /* PBXTextBookmark */ = 43B73314137C94B900A1BCC1 /* PBXTextBookmark */;
+			43B73315137C94B900A1BCC1 /* PBXTextBookmark */ = 43B73315137C94B900A1BCC1 /* PBXTextBookmark */;
+			43B73316137C94B900A1BCC1 /* PBXTextBookmark */ = 43B73316137C94B900A1BCC1 /* PBXTextBookmark */;
+			43B73317137C94B900A1BCC1 /* PBXTextBookmark */ = 43B73317137C94B900A1BCC1 /* PBXTextBookmark */;
+			43B7331C137C94DE00A1BCC1 /* PBXTextBookmark */ = 43B7331C137C94DE00A1BCC1 /* PBXTextBookmark */;
+			43B7331D137C94DE00A1BCC1 /* PBXTextBookmark */ = 43B7331D137C94DE00A1BCC1 /* PBXTextBookmark */;
+			43B73324137C95E100A1BCC1 /* PBXTextBookmark */ = 43B73324137C95E100A1BCC1 /* PBXTextBookmark */;
+			43B73325137C95E100A1BCC1 /* PBXTextBookmark */ = 43B73325137C95E100A1BCC1 /* PBXTextBookmark */;
+			43B73329137C962F00A1BCC1 /* PBXTextBookmark */ = 43B73329137C962F00A1BCC1 /* PBXTextBookmark */;
+			43B7332A137C962F00A1BCC1 /* PBXTextBookmark */ = 43B7332A137C962F00A1BCC1 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 431010FA1371EDEB008F3D95 /* Source Control */;
 		userBuildSettings = {
@@ -594,7 +612,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */;
 		name = "ArcGISTest1AppDelegate.m: 47";
 		rLen = 0;
-		rLoc = 1572;
+		rLoc = 1568;
 		rType = 0;
 		vrLen = 1069;
 		vrLoc = 569;
@@ -613,7 +631,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */;
 		name = "ArcGISTest1AppDelegate.m: 40";
 		rLen = 0;
-		rLoc = 1104;
+		rLoc = 1100;
 		rType = 0;
 		vrLen = 1638;
 		vrLoc = 0;
@@ -623,7 +641,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */;
 		name = "ArcGISTest1AppDelegate.m: 40";
 		rLen = 0;
-		rLoc = 1104;
+		rLoc = 1100;
 		rType = 0;
 		vrLen = 1720;
 		vrLoc = 0;
@@ -633,7 +651,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */;
 		name = "ArcGISTest1AppDelegate.m: 40";
 		rLen = 0;
-		rLoc = 1104;
+		rLoc = 1100;
 		rType = 0;
 		vrLen = 1720;
 		vrLoc = 0;
@@ -643,7 +661,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */;
 		name = "ArcGISTest1AppDelegate.m: 40";
 		rLen = 0;
-		rLoc = 1104;
+		rLoc = 1100;
 		rType = 0;
 		vrLen = 1720;
 		vrLoc = 0;
@@ -653,7 +671,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */;
 		name = "ArcGISTest1AppDelegate.m: 40";
 		rLen = 0;
-		rLoc = 1104;
+		rLoc = 1100;
 		rType = 0;
 		vrLen = 1720;
 		vrLoc = 0;
@@ -683,7 +701,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */;
 		name = "ArcGISTest1AppDelegate.m: 40";
 		rLen = 0;
-		rLoc = 1104;
+		rLoc = 1100;
 		rType = 0;
 		vrLen = 1720;
 		vrLoc = 0;
@@ -703,7 +721,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */;
 		name = "ArcGISTest1AppDelegate.m: 40";
 		rLen = 0;
-		rLoc = 1104;
+		rLoc = 1100;
 		rType = 0;
 		vrLen = 1720;
 		vrLoc = 0;
@@ -873,7 +891,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */;
 		name = "ArcGISTest1AppDelegate.m: 47";
 		rLen = 0;
-		rLoc = 1572;
+		rLoc = 1568;
 		rType = 0;
 		vrLen = 1069;
 		vrLoc = 569;
@@ -883,7 +901,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */;
 		name = "ArcGISTest1AppDelegate.m: 47";
 		rLen = 0;
-		rLoc = 1572;
+		rLoc = 1568;
 		rType = 0;
 		vrLen = 1069;
 		vrLoc = 569;
@@ -1092,7 +1110,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* ArcGISTest1ViewController.m */;
 		name = "ArcGISTest1ViewController.m: 285";
 		rLen = 0;
-		rLoc = 7491;
+		rLoc = 7497;
 		rType = 0;
 		vrLen = 1219;
 		vrLoc = 6748;
@@ -1132,7 +1150,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* ArcGISTest1ViewController.m */;
 		name = "ArcGISTest1ViewController.m: 285";
 		rLen = 0;
-		rLoc = 7491;
+		rLoc = 7497;
 		rType = 0;
 		vrLen = 1092;
 		vrLoc = 4086;
@@ -1182,7 +1200,7 @@
 		fRef = 1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */;
 		name = "ArcGISTest1AppDelegate.m: 47";
 		rLen = 0;
-		rLoc = 1572;
+		rLoc = 1568;
 		rType = 0;
 		vrLen = 1069;
 		vrLoc = 569;
@@ -1268,6 +1286,187 @@
 		vrLoc = 5576;
 	};
 	43B732F5137B3B0400A1BCC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ArcGISTest1ViewController.h */;
+		name = "ArcGISTest1ViewController.h: 13";
+		rLen = 10;
+		rLoc = 270;
+		rType = 0;
+		vrLen = 989;
+		vrLoc = 0;
+	};
+	43B732FB137C417A00A1BCC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */;
+		name = "ArcGISTest1AppDelegate.m: 47";
+		rLen = 0;
+		rLoc = 1568;
+		rType = 0;
+		vrLen = 1050;
+		vrLoc = 569;
+	};
+	43B73308137C4A6F00A1BCC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */;
+		name = "ArcGISTest1AppDelegate.m: 47";
+		rLen = 0;
+		rLoc = 1568;
+		rType = 0;
+		vrLen = 1069;
+		vrLoc = 569;
+	};
+	43B73309137C4A6F00A1BCC1 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected '=', ',', ';', 'asm' or '__attribute__' before '-' token";
+		fRef = 28D7ACF70DDB3853001CB0EB /* ArcGISTest1ViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 259;
+		rType = 1;
+	};
+	43B7330A137C4A6F00A1BCC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ArcGISTest1ViewController.m */;
+		name = "ArcGISTest1ViewController.m: 260";
+		rLen = 0;
+		rLoc = 6802;
+		rType = 0;
+		vrLen = 1531;
+		vrLoc = 5764;
+	};
+	43B7330F137C94B300A1BCC1 /* ArcGISTest1AppDelegate.m:40 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */;
+		functionName = "-setupMethodReceiver:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 40;
+		location = ArcGISTest1;
+		modificationTime = 326932008.656578;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	43B73311137C94B900A1BCC1 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 43B73304137C4A5200A1BCC1 /* Icon.png */;
+	};
+	43B73312137C94B900A1BCC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ArcGISTest1ViewController.h */;
+		name = "ArcGISTest1ViewController.h: 26";
+		rLen = 0;
+		rLoc = 586;
+		rType = 0;
+		vrLen = 989;
+		vrLoc = 0;
+	};
+	43B73313137C94B900A1BCC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ArcGISTest1ViewController.m */;
+		name = "ArcGISTest1ViewController.m: 260";
+		rLen = 0;
+		rLoc = 6802;
+		rType = 0;
+		vrLen = 1016;
+		vrLoc = 3538;
+	};
+	43B73314137C94B900A1BCC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ArcGISTest1AppDelegate.h */;
+		name = "ArcGISTest1AppDelegate.h: 13";
+		rLen = 0;
+		rLoc = 267;
+		rType = 0;
+		vrLen = 737;
+		vrLoc = 0;
+	};
+	43B73315137C94B900A1BCC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */;
+		name = "ArcGISTest1AppDelegate.m: 16";
+		rLen = 0;
+		rLoc = 326;
+		rType = 0;
+		vrLen = 1267;
+		vrLoc = 446;
+	};
+	43B73316137C94B900A1BCC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */;
+		name = "ArcGISTest1AppDelegate.m: 27";
+		rLen = 0;
+		rLoc = 689;
+		rType = 0;
+		vrLen = 1307;
+		vrLoc = 327;
+	};
+	43B73317137C94B900A1BCC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ArcGISTest1ViewController.h */;
+		name = "ArcGISTest1ViewController.h: 13";
+		rLen = 10;
+		rLoc = 270;
+		rType = 0;
+		vrLen = 991;
+		vrLoc = 0;
+	};
+	43B7331C137C94DE00A1BCC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */;
+		name = "ArcGISTest1AppDelegate.m: 27";
+		rLen = 0;
+		rLoc = 689;
+		rType = 0;
+		vrLen = 1307;
+		vrLoc = 327;
+	};
+	43B7331D137C94DE00A1BCC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ArcGISTest1ViewController.h */;
+		name = "ArcGISTest1ViewController.h: 13";
+		rLen = 10;
+		rLoc = 270;
+		rType = 0;
+		vrLen = 991;
+		vrLoc = 0;
+	};
+	43B73324137C95E100A1BCC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */;
+		name = "ArcGISTest1AppDelegate.m: 27";
+		rLen = 0;
+		rLoc = 689;
+		rType = 0;
+		vrLen = 1257;
+		vrLoc = 453;
+	};
+	43B73325137C95E100A1BCC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ArcGISTest1ViewController.h */;
+		name = "ArcGISTest1ViewController.h: 13";
+		rLen = 10;
+		rLoc = 270;
+		rType = 0;
+		vrLen = 989;
+		vrLoc = 0;
+	};
+	43B73329137C962F00A1BCC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ArcGISTest1AppDelegate.m */;
+		name = "ArcGISTest1AppDelegate.m: 27";
+		rLen = 0;
+		rLoc = 689;
+		rType = 0;
+		vrLen = 1149;
+		vrLoc = 567;
+	};
+	43B7332A137C962F00A1BCC1 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF60DDB3853001CB0EB /* ArcGISTest1ViewController.h */;
 		name = "ArcGISTest1ViewController.h: 13";
