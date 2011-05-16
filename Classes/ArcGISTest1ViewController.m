@@ -218,6 +218,12 @@
 
 
 
+	
+	
+	
+
+
+
 - (void) loadDepthControl {
 	
 	
@@ -299,6 +305,60 @@
 	//Register to listen for received data (as in requested files)
 	[[[delegate sender] dataReceivedListeners] addObject:self]; //Add self to the list of file received listeners
 	
+}
+
+
+- (void) changeExtentToXMin:(id) xmin xMax: (id) xmax yMin: (id) ymin yMax: (id) ymax withID:(id) mID {
+	
+	double xMinAsDouble = [((NSString *) xmin) doubleValue]; 
+	
+	double xMaxAsDouble = [((NSString *)xmax) doubleValue]; 
+	
+	double yMinAsDouble = [((NSString *)ymin) doubleValue]; 
+	
+	double yMaxAsDouble = [((NSString *)ymax) doubleValue]; 
+	
+	NSAssert(xMinAsDouble < xMaxAsDouble, @"xMin is greater or equal to xMax"); 
+	
+	NSAssert(yMinAsDouble < yMaxAsDouble, @"yMin is greater or equal to yMax"); 
+	
+	
+	AGSSpatialReference *sr = [AGSSpatialReference spatialReferenceWithWKID:4283];
+	AGSEnvelope *env = [AGSEnvelope envelopeWithXmin:xMinAsDouble
+												ymin:yMinAsDouble
+												xmax:xMaxAsDouble
+												ymax:yMaxAsDouble
+									spatialReference:sr];
+	[self.mapView zoomToEnvelope:env animated:YES];
+	
+	
+	
+	
+}
+
+
+- (void) changeOilLayer:(id) oilLayerValue withID: (id) mID {
+	
+	NSLog(@" changeOilValue  to %@", (NSString *) oilLayerValue); 
+	
+	int oilLayerValueAsInt = [((NSString *) oilLayerValue) intValue]; 
+	self.oilLayer.visibleLayers = [NSArray arrayWithObjects:[NSNumber numberWithInt:oilLayerValueAsInt], nil];  
+
+	if (dcoControl.selectedSegmentIndex == 1) { secondaryControl.selectedSegmentIndex == oilLayerValue; }
+	
+	
+}
+
+- (void) changeDepthLayer: (id) depthLayerValue withID: (id) mID {
+	
+	
+	NSLog(@" changeDepthValue  to %@", (NSString *) depthLayerValue); 
+	
+	int depthLayerValueAsInt = [((NSString *) depthLayerValue) intValue];
+	self.contoursLayer.visibleLayers = [NSArray arrayWithObjects:[NSNumber numberWithInt:depthLayerValueAsInt], nil];  //Only show C Layer
+
+	
+	if (dcoControl.selectedSegmentIndex == 0) { secondaryControl.selectedSegmentIndex = depthLayerValueAsInt; }
 }
 
 

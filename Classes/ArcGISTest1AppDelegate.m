@@ -27,13 +27,15 @@
 	[sender registerDevice:self andSelector:@selector(setupMethodReceiver:)]; //target = self, action = setupMethodReceiver
 	
 	
+	
 	hud = [[MBProgressHUD alloc] initWithView:self.viewController.view]; 
 	hud.labelText = @"Connecting to Surface";
 	
 	[self.viewController.view addSubview:hud]; 
 	
 	[hud show:YES]; 
-
+	 
+	
 	
 	
     // Override point for customization after app launch    
@@ -59,6 +61,18 @@
 
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
