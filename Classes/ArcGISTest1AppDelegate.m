@@ -8,6 +8,7 @@
 
 #import "ArcGISTest1AppDelegate.h"
 #import "ArcGISTest1ViewController.h"
+#import "MBProgressHUD.h"
 
 @implementation ArcGISTest1AppDelegate
 
@@ -26,6 +27,14 @@
 	[sender registerDevice:self andSelector:@selector(setupMethodReceiver:)]; //target = self, action = setupMethodReceiver
 	
 	
+	hud = [[MBProgressHUD alloc] initWithView:self.viewController.view]; 
+	hud.labelText = @"Connecting to Surface";
+	
+	[self.viewController.view addSubview:hud]; 
+	
+	[hud show:YES]; 
+
+	
 	
     // Override point for customization after app launch    
     [window addSubview:viewController.view];
@@ -37,6 +46,8 @@
  for it's use. A method receiver will then access this port and listen on it for new MethodCalls*/
 - (void) setupMethodReceiver: (NSData*) portAsData {
 
+	[hud hide:YES]; 
+	
 	NSString *portAsString = [[[NSString alloc] initWithData:portAsData encoding:NSUTF8StringEncoding] deserializeString]; 
 	
 	//Instantiate the receiver object using the port returned from the server

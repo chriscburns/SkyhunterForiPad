@@ -11,6 +11,7 @@
 #import "MethodReceiver.h"
 
 @class ArcGISTest1ViewController;
+@class MBProgressHUD; 
 
 @interface ArcGISTest1AppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
@@ -19,6 +20,7 @@
 	MethodSender *sender; 
 	MethodReceiver *receiver; 
 	
+	MBProgressHUD *hud; 
 	
 	
 }
